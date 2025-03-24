@@ -1,0 +1,22 @@
+
+.animate-spin{
+    animation: spin 12s linear infinite;
+   
+  }
+  
+  @keyframes spin {
+    0% {
+
+    }
+    100% {
+     rotate: 360deg;
+    }
+  }
+  body{
+    background-color: #000;
+  }
+  .glow{
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    background-color: #3498db;
+ 
+  }
